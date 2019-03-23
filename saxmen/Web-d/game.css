@@ -20,5 +20,28 @@
 }
 .choice-text{
     padding: 1.5rem;
+    width: 100%;
 }
 
+.correct{
+    background-color: rgb(59, 138, 23);
+}
+ 
+.incorrect{
+    background-color: tomato;
+}
+
+#hud {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hud-prefix{
+    text-align: center;
+    font-size: 2rem;
+}
+#hud-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
